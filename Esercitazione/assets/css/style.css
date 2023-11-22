@@ -1,0 +1,149 @@
+/*IMPOSTAZIONI PER TUTTA LA PAGINA*/
+
+html {font-size: 62.5%;}
+body { 
+    font-family: Poppins, 'Helvetica Neue', sans-serif;
+    font-size: 1.4rem;
+    color: #833B27;
+    padding: 10px;
+}
+
+/*header*/
+
+header{
+    background-color: #FBF7E3;
+    border-radius: 44px;
+    padding: 10px;
+    
+}
+
+header ul {
+    list-style-type: none;
+    font-size: 0.7em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav ul li {
+    background-color: #F4DF85;
+    border-radius: 30px;
+    padding: 0.8em;
+    display: flex;
+    align-items: center;
+    flex-basis: 35%;
+    margin: 2px;
+    justify-content: center;
+    font-weight: 600;
+    
+
+    
+}
+
+header nav ul li:first-child{
+    flex-basis: 79%;
+}
+
+/*main*/
+
+/*section shop*/
+
+#shop{
+    margin: 20px 0px 20px;
+}
+
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding: 1.1em;
+    text-align: center;
+}
+
+.cards{
+    background-color: #FBF7E3;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.cards img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    
+}
+
+.descrProd{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.descrProd div:first-child p:first-child {
+    font-weight: 700;
+}
+.descrProd div:first-child p:last-child {
+    font-size: 1rem;
+}
+
+.cards button{
+    background-color: #F4DF85;
+    border-radius: 30px;
+    padding: 0.8em;
+    display: flex;
+    align-items: center;
+    flex-basis: 35%;
+    margin: 2px;
+    justify-content: center;
+    font-weight: 600;
+    color: #833B27;
+    border: 0;
+    width: 50%;
+    margin: auto;
+}
+
+/*section dProduct*/
+
+#dProduct h2{
+    font-size: 2rem;
+    font-weight: 900;
+    padding: 1.1em;
+    text-align: center;
+}
+
+#dProduct > div {
+    background-color: #FBF7E3;
+    border-radius: 20px;
+    padding: 20px 0px 20px 20px;
+
+}
+
+#dProduct > div h3{
+    font-size: 1.8rem;
+    font-weight: 900;
+    padding: 0.4em;
+    text-align: left;
+    margin-bottom:10px;
+}
+
+#dProduct > div p{
+    padding: 0.4em;
+    margin-bottom:10px;
+}
+
+
+#dProduct > div img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
